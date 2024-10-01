@@ -43,7 +43,7 @@ function App() {
 
         <section className="about-section">
           <h2>About Me</h2>
-          <p>Life has presented me with many challenges, but through it all, I have held onto faith and the belief that God has a greater plan for me. Growing up in difficult circumstances, I’ve experienced hardships that have shaped my desire to make a meaningful difference—not only in my own life but also in the lives of others.
+          <p> Life has presented me with many challenges, but through it all, I have held onto faith and the belief that God has a greater plan for me. Growing up in difficult circumstances, I’ve experienced hardships that have shaped my desire to make a meaningful difference—not only in my own life but also in the lives of others.
 
 Despite the struggles I’ve faced, I’ve always been driven by the goal of contributing to my community and society as a whole. I believe education is the key to unlocking that potential. That’s why I am committed to pursuing my studies at Summit, where I can gain the knowledge and skills needed to create lasting change.
 
