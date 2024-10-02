@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Fundraiser-webpage/static/css/main.e953b9b6.css",
+    "main.css": "/Fundraiser-webpage/static/css/main.7dcca98b.css",
     "main.js": "/Fundraiser-webpage/static/js/main.b2e3212f.js",
     "static/js/453.903c2e0e.chunk.js": "/Fundraiser-webpage/static/js/453.903c2e0e.chunk.js",
     "static/media/Untitled design.png": "/Fundraiser-webpage/static/media/Untitled design.950ae6e2cbbbfc1357ba.png",
     "index.html": "/Fundraiser-webpage/index.html",
     "static/media/Header.Css": "/Fundraiser-webpage/static/media/Header.35ff6f3d8d62a2f2b41d.Css",
-    "main.e953b9b6.css.map": "/Fundraiser-webpage/static/css/main.e953b9b6.css.map",
+    "main.7dcca98b.css.map": "/Fundraiser-webpage/static/css/main.7dcca98b.css.map",
     "main.b2e3212f.js.map": "/Fundraiser-webpage/static/js/main.b2e3212f.js.map",
     "453.903c2e0e.chunk.js.map": "/Fundraiser-webpage/static/js/453.903c2e0e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e953b9b6.css",
+    "static/css/main.7dcca98b.css",
     "static/js/main.b2e3212f.js"
   ]
 }
