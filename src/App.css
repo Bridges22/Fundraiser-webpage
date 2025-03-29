@@ -5,57 +5,42 @@ body {
   padding: 0;
   box-sizing: border-box;
   background-color: #FFDAB9; /* Light background for the whole page */
+  overflow-x: hidden; /* Disable horizontal scrolling */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Ensure padding and borders are included in dimensions */
 }
 
 .App {
   text-align: center;
 }
 
-/* Hero Section */
-.hero-section {
-  background: url('Untitled design.png') no-repeat center center;
-  background-color: transparent;
-  background-size: cover;
-  height: 50vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  text-align: center;
-}
-
-
-/* Adding the overlay */
-.hero-section::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 50%;
-  background-color: rgba(0, 0, 0, 0.5); /* Dark overlay with 50% opacity */
-  z-index: 1;
-}
-
-.cta-button {
-  padding: 10px 20px;
-  background-color: #ff6347;
-  color: white;
-  text-decoration: none;
-  border-radius: 5px;
-  transition: background-color 0.3s ease;
-}
-
-.cta-button:hover {
-  background-color: #ff4500;
-}
-
 
 
 /* Sections */
 section {
-  padding: 40px;
+  padding: 8px; /* Further reduced padding */
+  max-width: 100%; /* Ensure sections don't exceed the viewport width */
+  width: 100%; /* Fully utilize the viewport width */
+  margin: 2px 0; /* Further reduced spacing between sections */
+  box-sizing: border-box; /* Ensure padding is included in width/height */
+}
+
+@media (max-width: 768px) {
+  section {
+    width: 100%; /* Slimmer width for mobile devices */
+    padding: 15px; /* Reduced padding for smaller screens */
+  }
+}
+
+@media (min-width: 1024px) {
+  section {
+    width: 100%; /* Slightly wider width for laptops */
+    padding: 30px; /* Increased padding for larger screens */
+  }
 }
 
 /* Grid layout container for 2x2 */
@@ -63,17 +48,35 @@ section {
   display: grid;
   grid-template-columns: 1fr 1fr; /* Two equal-width columns */
   grid-template-rows: auto auto; /* Two rows, height auto adjusts to content */
-  gap: 20px; /* Space between grid items */
-  margin: 40px; /* Space around the grid */
+  gap: 0.01mm; /* Further reduced space between grid items */
+  margin: 0 auto; /* Center the grid and prevent overflow */
+  padding: 0px; /* Remove extra padding */
+  overflow: hidden; /* Prevent any overflow from grid items */
+}
+
+@media (max-width: 768px) {
+  .container {
+    grid-template-columns: 1fr; /* Single column for smaller screens */
+    grid-template-rows: auto; /* Rows adjust automatically */
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    grid-template-columns: 1fr; /* Two columns for larger screens */
+    grid-template-rows:auto auto ; /*Two rows, height auto adjusts to content*/
+    gap: 10;
+
+  }
 }
 
 /* section styling */
 .donate-section, .progress-section, .about-section, .contact-section {
   background-color: #ff2003;
-  margin: 20px 0;
+  margin: 10px 0; /* Reduce vertical margin to minimize space */
   border-radius: 8px; /* Rounded corners */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-  padding: 20px
+  box-shadow: 0 6px 6px rgb(131, 16, 35); /* Subtle shadow for depth */
+  padding: 20px;
 }
 
 /* Headings */
@@ -81,6 +84,7 @@ h2 {
   color: #333;
   font-size: 2em; /* Increased font size */
   margin-bottom: 10px; /* Spacing below heading */
+
 }
 
 /* Donate Form Styles */
@@ -106,6 +110,7 @@ h2 {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  display: inline-block;
   transition: background-color 0.3s ease;
 }
 
@@ -124,7 +129,6 @@ progress {
 .contact-section {
   background-color: green; /* Slightly different background */
 }
-
 
 /* styling share button */
 .share-buttons {
@@ -146,14 +150,12 @@ progress {
   background-color: #ff4500; /* Darker shade on hover */
 }
 
-
 /* Media Queries for Responsiveness */
 @media (max-width: 768px) {
   .hero-section {
     height: 50vh;
     width: 100%;
   }
-
 
 /* Responsive design for mobile */
 @media (max-width: 768px) {
@@ -171,4 +173,17 @@ progress {
   progress {
     width: 100%; /* Full width on smaller screens */
   }
+
+  /* Footer Styles */
+.footer {
+  background-color: #000; /* Ensure the footer has a consistent black background */
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 0.9em;
+  position: relative; /* Allow the footer to scroll with the page */
+  bottom: 0;
+  width: 100%;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow for visibility */
+}
 }

@@ -4,7 +4,7 @@ import Header from './Header';  // Import Header component
 
 function App() {
   const [donationAmount, setDonationAmount] = useState('');
-  const [totalRaised, setTotalRaised] = useState(0);
+  const [totalRaised, setTotalRaised] = useState(6520);
   const fundraisingGoal = 30000;
 
   const handleSubmit = (e) => {
@@ -43,11 +43,11 @@ function App() {
 
         <section className="about-section">
           <h2>About Me</h2>
-          <p>Life has presented me with many challenges, but through it all, I have held onto faith and the belief that God has a greater plan for me. Growing up in difficult circumstances, I’ve experienced hardships that have shaped my desire to make a meaningful difference—not only in my own life but also in the lives of others.
+          <p>Life has presented me with many challenges, but through it all, I have held onto faith and the belief that God has a greater plan for me. Growing up in difficult circumstances, I’ve experienced hardships that have shaped my desire to make a meaningful difference, not only in my own life but also in the lives of others.
 
 Despite the struggles I’ve faced, I’ve always been driven by the goal of contributing to my community and society as a whole. I believe education is the key to unlocking that potential. That’s why I am committed to pursuing my studies at Summit, where I can gain the knowledge and skills needed to create lasting change.
 
-This journey isn’t just about my personal growth—it’s about being equipped to give back, to uplift those who feel forgotten, and to inspire hope in others who are going through tough times. I want to be a part of building a better, more compassionate society, and I believe this program will help me do that.
+This journey isn’t just about my personal growth, it’s about being equipped to give back, to uplift those who feel forgotten, and to inspire hope in others who are going through tough times. I want to be a part of building a better, more compassionate society, and I believe this program will help me do that.
 
 I am fundraising because, while my determination is strong, the financial burden is more than I can manage on my own. Your support, whether through donations or prayers, will help make this dream possible. Every contribution will bring me closer to realizing my goal of serving others and creating a brighter future for my community.
 
@@ -85,8 +85,12 @@ Thank you for believing in my vision and for walking with me on this journey. Yo
       Share on WhatsApp
     </a>
   </div>
+
         </section>
       </div> 
+      <footer className="footer">
+        <p>© 2024 Bridges. All rights reserved.</p>
+      </footer>
     </div>
   );
 }

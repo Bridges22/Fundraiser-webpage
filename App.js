@@ -88,6 +88,10 @@ Thank you for believing in my vision and for walking with me on this journey. Yo
         </section>
       </div> 
     </div>
+    <footer className="footer">
+      <p>© 2024 Bridges. All rights reserved.</p>
+    </footer>
+  </div>
   );
 }
 
