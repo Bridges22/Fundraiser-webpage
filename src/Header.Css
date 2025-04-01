@@ -33,12 +33,12 @@
 }
 
 .hero-section p {
-  font-size: 1em;
+  font-size: 0.9em;
   line-height: 1.0; /* Reduce line height for paragraphs */
   margin-bottom: 5px; /* Reduce space between paragraphs */
-  font-weight: bold;
+  font-weight: normal;
   text-shadow: 2px 2px 4px rgba(2, 2, 2, 0.3); /* Adds a slight shadow to text */
-  color: rgb(215, 250, 245);
+  color: rgb(247, 255, 254);
 
 }
 

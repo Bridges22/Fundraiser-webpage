@@ -1,0 +1,17 @@
+/* General styles for paragraphs */
+p {
+  font-weight: 400; /* Normal weight to reduce boldness */
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+  p {
+    font-weight: 300; /* Lighter weight for better readability on mobile */
+  }
+}
+
+@media (max-width: 480px) {
+  p {
+    font-weight: 300; /* Maintain lighter weight for very small screens */
+  }
+}
