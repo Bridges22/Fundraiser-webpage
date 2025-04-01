@@ -184,6 +184,6 @@ progress {
   position: relative; /* Allow the footer to scroll with the page */
   bottom: 0;
   width: 100%;
-  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow for visibility */
+  box-shadow: 0 20px 5px rgba(3, 230, 60, 0.2); /* Subtle shadow for visibility */
 }
 }
