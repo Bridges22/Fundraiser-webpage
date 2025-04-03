@@ -83,6 +83,45 @@ hero-section::before {
 
 .cta-button:hover {
   background-color: #ff4500;
+
+
+  /* Media Query for Small Screens (Phones) */
+@media (max-width: 480px) {
+  .hero-section {
+    height: auto; /* Allow height to adjust based on content */
+    padding: 10px; /* Reduce padding for smaller screens */
+  }
+
+  .hero-section h1 {
+    font-size: 1.5em; /* Reduce font size for the title */
+    margin-bottom: 10px; /* Add space below the title */
+  }
+
+  .hero-section h2 {
+    font-size: 1.2em; /* Reduce font size for the subtitle */
+    margin-bottom: 8px; /* Add space below the subtitle */
+  }
+
+  .hero-section p {
+    font-size: 0.9em; /* Adjust paragraph font size */
+    line-height: 1.4; /* Improve readability */
+  }
+
+  .hero-section h3 {
+    font-size: 1.2em; /* Adjust heading size */
+    margin-top: 15px;
+    margin-bottom: 8px;
+  }
+
+  .hero-section ul {
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  .hero-section li {
+    margin-bottom: 5px; /* Keep list items compact */
+  }
+}
 }
 
 
